@@ -1,0 +1,4 @@
+[Homelab-Jump]
+MV-Jump-1 deploy_vsphere_datastore='vsanDatastore' guest_custom_ip='192.168.3.120' guest_notes='First Jump'
+MV-Jump-2 deploy_vsphere_datastore='vsanDatastore' guest_custom_ip='192.168.3.121' guest_notes='Second Jump'
+MV-Jump-3 deploy_vsphere_datastore='vsanDatastore' guest_custom_ip='192.168.3.122' guest_notes='Third Jump'

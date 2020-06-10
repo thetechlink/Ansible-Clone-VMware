@@ -1,0 +1,18 @@
+# vCenter-Connection
+deploy_vsphere_host: '192.168.3.206'
+deploy_vsphere_user: 'administator@vsphere.local'
+deploy_vsphere_password: 'St091z#2020'
+deploy_vsphere_datacenter: 'MV'
+deploy_vsphere_folder: 'Ansible-Test-Lab'
+deploy_vsphere_cluster: 'MV-HomeLab'
+
+#Guest Specifications
+guest_network: 'MV-DV-VM-Network'
+guest_netmask: '255.255.255.0'
+guest_gateway: '192.168.3.250'
+guest_dns_server: '192.168.3.250'
+guest_memory: '2048'
+guest_vcpu: '1'
+guest_domain_Name: 'garvelink.net'
+guest_id: 'windows9Server64Guest'
+guest_template: 'MV-2019'
