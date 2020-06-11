@@ -1,7 +1,7 @@
 # vCenter-Connection
 deploy_vsphere_host: '192.168.3.206'
-deploy_vsphere_user: 'administator@vsphere.local'
-deploy_vsphere_password: 'St091z#2020'
+deploy_vsphere_user: 'link@vsphere.local'
+deploy_vsphere_password: 'St091z!2020'
 deploy_vsphere_datacenter: 'MV'
 deploy_vsphere_folder: 'Ansible-Test-Lab'
 deploy_vsphere_cluster: 'MV-HomeLab'

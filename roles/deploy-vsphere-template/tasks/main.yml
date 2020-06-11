@@ -14,10 +14,10 @@
     state: poweredon
     guest_id: '{{ guest_id }}'
     annotation: "{{ guest_notes }}"
-    disk:
-    - size_gb: 50 
-      type: thin
-      datastore: '{{ deploy_vsphere_datastore }}'
+    # disk:
+    # - size_gb: 50 
+     # type: thin
+     # datastore: '{{ deploy_vsphere_datastore }}'
     networks:
     - name: '{{ guest_network }}'
       ip: '{{ guest_custom_ip }}'
